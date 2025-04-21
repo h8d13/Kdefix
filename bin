@@ -7,7 +7,11 @@
 [General]
 loginMode=emptySession
 
+MOVED_TO /home/harch/.config/kglobalshortcutsrc
 
+cat /home/harch/.config/kscreenlockerrc
+[Daemon]
+Timeout=10
 
 
 2025-04-22 00:46:30 DELETE /home/harch/.config/ksmserverrc.lock
