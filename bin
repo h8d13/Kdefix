@@ -3,7 +3,13 @@
 2025-04-22 00:46:30 MODIFY /home/harch/.config/#3179144
 2025-04-22 00:46:30 CREATE /home/harch/.config/ksmserverrc.mrSOsU
 2025-04-22 00:46:30 MOVED_FROM /home/harch/.config/ksmserverrc.mrSOsU
-2025-04-22 00:46:30 MOVED_TO /home/harch/.config/ksmserverrc
+/home/harch/.config/ksmserverrc
+[General]
+loginMode=emptySession
+
+
+
+
 2025-04-22 00:46:30 DELETE /home/harch/.config/ksmserverrc.lock
 2025-04-22 00:46:57 CREATE /home/harch/.config/ksmserverrc.lock
 2025-04-22 00:46:57 MODIFY /home/harch/.config/ksmserverrc.lock
