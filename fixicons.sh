@@ -1,5 +1,5 @@
 #!/bin/sh
-
+## On many distros I don't want discover or anything in the taskbar for that matter. 
 CONFIG_FILE="$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"
 TMP_FILE="$(mktemp)"
 
@@ -12,7 +12,7 @@ state == 2 && /^plugin=org\.kde\.plasma\.icontasks$/ {
     print
     print ""  # one newline
     print "[Containments][2][Applets][5][Configuration][General]"
-    print "launchers=preferred://filemanager,applications:org.kde.konsole.desktop"
+    print "launchers=applications:org.kde.konsole.desktop"
     state = 0
     next
 }
