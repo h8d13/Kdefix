@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# apk add inotify-tools
 CONFIG_DIR="$HOME/.config"
 
 echo "Watching $CONFIG_DIR for changes..."
