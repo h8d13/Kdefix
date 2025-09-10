@@ -47,7 +47,7 @@ echo ""
 
 if command -v pv >/dev/null 2>&1; then
     echo "Using pv for progress monitoring..."
-    dd if="$SOURCE_DEVICE" bs=64K | pv -s "$SOURCE_SIZE" | dd of="$TARGET_DEVICE" bs=64K
+    dd if="$SOURCE_DEVICE" bs=1M | pv -s "$SOURCE_SIZE" | dd of="$TARGET_DEVICE" bs=1M
 else
     echo "Using dd..."
     dd if="$SOURCE_DEVICE" of="$TARGET_DEVICE" bs=64K status=progress
